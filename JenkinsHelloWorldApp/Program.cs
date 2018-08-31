@@ -5,10 +5,11 @@ using System.Text;
 
 namespace JenkinsHelloWorldApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("First project deployed using jenkins");
         }
     }
 }
